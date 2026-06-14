@@ -1,0 +1,15 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Dodum&family=Noto+Serif+TC:wght@500;600;700&display=swap');
+:root{--bg:#fbf1e7;--paper:#fffaf4;--brown:#5a3829;--soft:#cf9677;--line:#ead1bd;}
+*{box-sizing:border-box} html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--brown);font-family:"Gowun Dodum","Noto Serif TC",serif;letter-spacing:.055em;}
+.page{width:min(100%,1000px);margin:0 auto;background:#fff7ef;padding:18px 22px 28px;box-shadow:0 0 36px rgba(102,65,42,.08)}
+.logo{text-align:center;padding:14px 0 18px}.logo a{text-decoration:none;color:inherit}.logo .en{font-size:32px;letter-spacing:.26em;color:#8c5d46}.logo .sub{font-size:13px;letter-spacing:.25em;color:#b17b60;margin-top:6px}
+.image-card{background:var(--paper);border:1px solid var(--line);border-radius:20px;padding:8px;margin-bottom:20px;box-shadow:0 10px 26px rgba(94,58,38,.06)}
+img{display:block;width:100%;height:auto}.image-card img{border-radius:14px}
+.section-title{text-align:center;font-size:19px;font-weight:700;letter-spacing:.22em;margin:24px auto 15px;color:#68422f}.section-title::before,.section-title::after{content:"";display:inline-block;width:42px;height:1px;background:var(--line);vertical-align:middle;margin:0 12px}
+.nav-img{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;align-items:end;margin:22px 0 8px}.nav-img a{display:block;transition:.18s ease;filter:drop-shadow(0 8px 12px rgba(94,58,38,.08))}.nav-img a:hover{transform:translateY(-4px)}.nav-img img{border-radius:0}
+.placeholder{min-height:650px;background-image:url('assets/blank.jpeg');background-size:cover;background-position:center;border:1px solid var(--line);border-radius:22px;position:relative;overflow:hidden;box-shadow:0 10px 26px rgba(94,58,38,.06)}
+.placeholder .text{position:absolute;inset:28% 13%;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;background:rgba(255,250,244,.68);border:1px solid rgba(234,209,189,.75);border-radius:20px;padding:26px;line-height:2.2;font-size:17px}.placeholder h1{font-size:34px;letter-spacing:.22em;margin:0 0 12px;color:#68422f}.placeholder p{margin:0}
+footer{text-align:center;color:#9a6a52;padding:22px 0 4px;font-size:14px;line-height:2;letter-spacing:.12em}
+@media(max-width:760px){.page{padding:10px 10px 22px}.logo .en{font-size:24px;letter-spacing:.16em}.nav-img{grid-template-columns:repeat(2,1fr);gap:10px}.section-title{font-size:17px}.section-title::before,.section-title::after{width:24px;margin:0 7px}.placeholder{min-height:560px}.placeholder .text{inset:25% 10%;font-size:15px}.placeholder h1{font-size:27px}}
